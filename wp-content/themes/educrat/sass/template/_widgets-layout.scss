@@ -1,0 +1,105 @@
+/* block */
+.#{$block-selector} {
+    margin-bottom: $block-module-margin-bottom;
+    position: relative;
+    padding: $block-module-padding;
+    background: transparent;
+    .wp-block-group__inner-container > h1,
+    .wp-block-group__inner-container > h2,
+    .wp-block-group__inner-container > h3,
+    .wp-block-group__inner-container > h4,
+    .wp-block-group__inner-container > h5,
+    .wp-block-group__inner-container > h6{
+        margin:0 0 15px;
+        font-weight: 500;
+        @media(min-width: 1200px){
+            margin:0 0 25px;
+        }
+        text-transform: capitalize;
+        + ul{
+            margin: 0;
+            padding-left: 0;
+            li{
+                list-style: none;
+                padding: 0 0 8px;
+                &:last-child{
+                    padding-bottom: 0;
+                }
+                &:hover > a,
+                &.current-cat-parent > a,
+                &.current-cat > a{
+                    color:$theme-color;
+                }
+            }
+        }
+    }
+    .wp-block-group__inner-container > h2{
+        font-size: 18px;
+        @media(min-width: 1200px){
+            font-size: 20px;
+        }
+    }
+    .wc-block-price-filter__title,
+    .#{$block-heading-selector}{
+        font-weight: 500;
+        margin:0 0 15px;
+        font-size: 18px;
+        @media(min-width: 1200px){
+            margin:0 0 25px;
+            font-size: 20px;
+        }
+        text-transform: capitalize;
+        .urgent,
+        .featured{
+            font-size: 0.75rem;
+        }
+    }
+}
+// Sidebar
+.sidebar,
+.#{$app-prefix}-sidebar {
+    .widget{
+        margin: 0 0 ($theme-margin / 2);
+        padding: 0 0 ($theme-margin / 2);
+        border-bottom: 1px solid $border-color;
+        @media(min-width: 1200px){
+            margin: 0 0 $theme-margin;
+            padding: 0 0 $theme-margin;
+        }
+        &:last-child{
+            border-bottom: 0;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+        &.widget_apus_search{
+            border: 0;
+            margin: 0;
+        }
+    }
+}
+// footer 
+[class *="apus_footer"],
+.apus-footer{
+    // widget
+    .wpml-ls-legacy-dropdown{
+        .wpml-ls-sub-menu{
+            bottom: 100%;
+            top: inherit;
+            @include translateY(-8px);
+        }
+        .wpml-ls-current-language:hover{
+            .wpml-ls-sub-menu{
+                @include translateY(0);
+            }
+        }
+        a.wpml-ls-item-toggle{
+            &:after{
+                bottom: 100%;
+                top: inherit;
+            }
+        }
+    }
+    .widget .widget-title, .widget .widgettitle, .widget .widget-heading{
+        font-size: 17px;
+    }
+}

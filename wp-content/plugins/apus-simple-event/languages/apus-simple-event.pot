@@ -1,0 +1,671 @@
+# Copyright (C) 2016 Apus Simple Event
+# This file is distributed under the same license as the Apus Simple Event package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Apus Simple Event 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/apus-simple-"
+"event\n"
+"POT-Creation-Date: 2016-06-27 09:03:56+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: inc/post-types/class-post-type-event.php:29
+#: inc/post-types/class-post-type-event.php:41
+msgid "Apus Events"
+msgstr ""
+
+#: inc/post-types/class-post-type-event.php:30
+msgid "Event"
+msgstr ""
+
+#: inc/post-types/class-post-type-event.php:31
+#: inc/post-types/class-post-type-event.php:32
+msgid "Add New Event"
+msgstr ""
+
+#: inc/post-types/class-post-type-event.php:33
+msgid "Edit Event"
+msgstr ""
+
+#: inc/post-types/class-post-type-event.php:34
+msgid "New Event"
+msgstr ""
+
+#: inc/post-types/class-post-type-event.php:35
+msgid "All Events"
+msgstr ""
+
+#: inc/post-types/class-post-type-event.php:36
+msgid "View Event"
+msgstr ""
+
+#: inc/post-types/class-post-type-event.php:37
+msgid "Search Event"
+msgstr ""
+
+#: inc/post-types/class-post-type-event.php:38
+msgid "No Events found"
+msgstr ""
+
+#: inc/post-types/class-post-type-event.php:39
+msgid "No Events found in Trash"
+msgstr ""
+
+#: inc/post-types/class-post-type-event.php:52
+msgid "simple-event"
+msgstr ""
+
+#: inc/post-types/class-post-type-event.php:67
+msgid "Event Information"
+msgstr ""
+
+#: inc/post-types/class-post-type-event.php:85
+msgid "Start Date"
+msgstr ""
+
+#: inc/post-types/class-post-type-event.php:92
+msgid "Finish Date"
+msgstr ""
+
+#: inc/post-types/class-post-type-event.php:99
+#: inc/vendors/cmb2/libraries/includes/CMB2_JS.php:123
+msgid "Time"
+msgstr ""
+
+#: inc/post-types/class-post-type-event.php:102
+msgid "Eg: 8h -> 17h"
+msgstr ""
+
+#: inc/post-types/class-post-type-event.php:106
+msgid "Location"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-event-category.php:28
+#: inc/taxonomies/class-taxonomy-event-category.php:38
+msgid "Event Categories"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-event-category.php:29
+msgid "Event Category"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-event-category.php:30
+msgid "Search Event Categories"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-event-category.php:31
+msgid "All Event Categories"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-event-category.php:32
+msgid "Parent Event Category"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-event-category.php:33
+msgid "Parent Event Category:"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-event-category.php:34
+msgid "Edit Event Category"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-event-category.php:35
+msgid "Update Event Category"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-event-category.php:36
+msgid "Add New Event Category"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-event-category.php:37
+msgid "New Event Category"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-event-category.php:45
+msgid "apus-event-category"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-event-tags.php:29
+#: inc/taxonomies/class-taxonomy-event-tags.php:39
+msgid "Event Tags"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-event-tags.php:30
+msgid "Event Tag"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-event-tags.php:31
+msgid "Search Event Tags"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-event-tags.php:32
+msgid "All Event Tags"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-event-tags.php:33
+msgid "Parent Event Tag"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-event-tags.php:34
+msgid "Parent Event Tag:"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-event-tags.php:35
+msgid "Edit Event Tag"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-event-tags.php:36
+msgid "Update Event Tag"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-event-tags.php:37
+msgid "Add New Event Tag"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-event-tags.php:38
+msgid "New Event Tag"
+msgstr ""
+
+#: inc/taxonomies/class-taxonomy-event-tags.php:46
+msgid "simple-event-tag"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/example-functions.php:82
+msgid "Test Metabox"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/example-functions.php:93
+#: inc/vendors/cmb2/libraries/example-functions.php:380
+msgid "Test Text"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/example-functions.php:94
+#: inc/vendors/cmb2/libraries/example-functions.php:106
+#: inc/vendors/cmb2/libraries/example-functions.php:114
+#: inc/vendors/cmb2/libraries/example-functions.php:122
+#: inc/vendors/cmb2/libraries/example-functions.php:131
+#: inc/vendors/cmb2/libraries/example-functions.php:139
+#: inc/vendors/cmb2/libraries/example-functions.php:153
+#: inc/vendors/cmb2/libraries/example-functions.php:160
+#: inc/vendors/cmb2/libraries/example-functions.php:168
+#: inc/vendors/cmb2/libraries/example-functions.php:185
+#: inc/vendors/cmb2/libraries/example-functions.php:194
+#: inc/vendors/cmb2/libraries/example-functions.php:202
+#: inc/vendors/cmb2/libraries/example-functions.php:209
+#: inc/vendors/cmb2/libraries/example-functions.php:216
+#: inc/vendors/cmb2/libraries/example-functions.php:230
+#: inc/vendors/cmb2/libraries/example-functions.php:243
+#: inc/vendors/cmb2/libraries/example-functions.php:256
+#: inc/vendors/cmb2/libraries/example-functions.php:268
+#: inc/vendors/cmb2/libraries/example-functions.php:277
+#: inc/vendors/cmb2/libraries/example-functions.php:285
+#: inc/vendors/cmb2/libraries/example-functions.php:294
+#: inc/vendors/cmb2/libraries/example-functions.php:301
+#: inc/vendors/cmb2/libraries/example-functions.php:315
+#: inc/vendors/cmb2/libraries/example-functions.php:381
+#: inc/vendors/cmb2/libraries/example-functions.php:476
+#: inc/vendors/cmb2/libraries/example-functions.php:484
+#: inc/vendors/cmb2/libraries/example-functions.php:491
+#: inc/vendors/cmb2/libraries/example-functions.php:498
+#: inc/vendors/cmb2/libraries/example-functions.php:505
+#: inc/vendors/cmb2/libraries/example-functions.php:512
+#: inc/vendors/cmb2/libraries/example-functions.php:519
+#: inc/vendors/cmb2/libraries/example-functions.php:557
+msgid "field description (optional)"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/example-functions.php:105
+msgid "Test Text Small"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/example-functions.php:113
+msgid "Test Text Medium"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/example-functions.php:121
+msgid "Website URL"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/example-functions.php:130
+msgid "Test Text Email"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/example-functions.php:138
+msgid "Test Time"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/example-functions.php:145
+#: inc/vendors/cmb2/libraries/example-functions.php:146
+msgid "Time zone"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/example-functions.php:152
+msgid "Test Date Picker"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/example-functions.php:159
+msgid "Test Date Picker (UNIX timestamp)"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/example-functions.php:167
+msgid "Test Date/Time Picker Combo (UNIX timestamp)"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/example-functions.php:184
+msgid "Test Money"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/example-functions.php:193
+msgid "Test Color Picker"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/example-functions.php:201
+msgid "Test Text Area"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/example-functions.php:208
+msgid "Test Text Area Small"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/example-functions.php:215
+msgid "Test Text Area for Code"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/example-functions.php:222
+msgid "Test Title Weeeee"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/example-functions.php:223
+msgid "This is a title description"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/example-functions.php:229
+msgid "Test Select"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/example-functions.php:235
+#: inc/vendors/cmb2/libraries/example-functions.php:248
+#: inc/vendors/cmb2/libraries/example-functions.php:260
+msgid "Option One"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/example-functions.php:236
+#: inc/vendors/cmb2/libraries/example-functions.php:249
+#: inc/vendors/cmb2/libraries/example-functions.php:261
+msgid "Option Two"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/example-functions.php:237
+#: inc/vendors/cmb2/libraries/example-functions.php:250
+#: inc/vendors/cmb2/libraries/example-functions.php:262
+msgid "Option Three"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/example-functions.php:242
+msgid "Test Radio inline"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/example-functions.php:255
+msgid "Test Radio"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/example-functions.php:267
+msgid "Test Taxonomy Radio"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/example-functions.php:276
+msgid "Test Taxonomy Select"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/example-functions.php:284
+msgid "Test Taxonomy Multi Checkbox"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/example-functions.php:293
+msgid "Test Checkbox"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/example-functions.php:300
+msgid "Test Multi Checkbox"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/example-functions.php:306
+msgid "Check One"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/example-functions.php:307
+msgid "Check Two"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/example-functions.php:308
+msgid "Check Three"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/example-functions.php:314
+msgid "Test wysiwyg"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/example-functions.php:322
+msgid "Test Image"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/example-functions.php:323
+msgid "Upload an image or enter a URL."
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/example-functions.php:329
+msgid "Multiple Files"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/example-functions.php:330
+msgid "Upload or add multiple images/attachments."
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/example-functions.php:337
+msgid "oEmbed"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/example-functions.php:338
+msgid ""
+"Enter a youtube, twitter, or instagram URL. Supports services listed at <a "
+"href=\"http://codex.wordpress.org/Embeds\">http://codex.wordpress.org/"
+"Embeds</a>."
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/example-functions.php:371
+msgid "About Page Metabox"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/example-functions.php:402
+msgid "Repeating Field Group"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/example-functions.php:410
+msgid "Generates reusable form entries"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/example-functions.php:412
+msgid "Entry {#}"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/example-functions.php:413
+msgid "Add Another Entry"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/example-functions.php:414
+msgid "Remove Entry"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/example-functions.php:427
+msgid "Entry Title"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/example-functions.php:434
+msgid "Description"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/example-functions.php:435
+msgid "Write a short description for this entry"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/example-functions.php:441
+msgid "Entry Image"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/example-functions.php:447
+msgid "Image Caption"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/example-functions.php:468
+msgid "User Profile Metabox"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/example-functions.php:475
+msgid "Extra Info"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/example-functions.php:483
+msgid "Avatar"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/example-functions.php:490
+msgid "Facebook URL"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/example-functions.php:497
+msgid "Twitter URL"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/example-functions.php:504
+msgid "Google+ URL"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/example-functions.php:511
+msgid "Linkedin URL"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/example-functions.php:518
+msgid "User Field"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/example-functions.php:541
+msgid "Theme Options Metabox"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/example-functions.php:556
+msgid "Site Background Color"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/includes/CMB2.php:120
+msgid "Metabox configuration is required to have an ID parameter"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/includes/CMB2.php:332
+msgid "Click to toggle"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/includes/CMB2_Ajax.php:40
+msgid "Please Try Again"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/includes/CMB2_Ajax.php:135
+msgid "Remove Embed"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/includes/CMB2_Ajax.php:139
+msgid "No oEmbed Results Found for %s. View more info at"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/includes/CMB2_Field.php:955
+msgid "Add Group"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/includes/CMB2_Field.php:956
+msgid "Remove Group"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/includes/CMB2_Field.php:978
+#: inc/vendors/cmb2/libraries/includes/CMB2_Field.php:982
+msgid "None"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/includes/CMB2_JS.php:86
+#: inc/vendors/cmb2/libraries/includes/CMB2_JS.php:119
+msgid "Clear"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/includes/CMB2_JS.php:87
+msgid "Default"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/includes/CMB2_JS.php:88
+msgid "Select Color"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/includes/CMB2_JS.php:89
+msgid "Current Color"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/includes/CMB2_JS.php:109
+msgctxt "Valid formatDate string for jquery-ui datepicker"
+msgid "mm/dd/yy"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/includes/CMB2_JS.php:110
+msgid "Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/includes/CMB2_JS.php:111
+msgid "Su, Mo, Tu, We, Th, Fr, Sa"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/includes/CMB2_JS.php:112
+msgid "Sun, Mon, Tue, Wed, Thu, Fri, Sat"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/includes/CMB2_JS.php:113
+msgid ""
+"January, February, March, April, May, June, July, August, September, "
+"October, November, December"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/includes/CMB2_JS.php:114
+msgid "Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/includes/CMB2_JS.php:115
+msgid "Next"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/includes/CMB2_JS.php:116
+msgid "Prev"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/includes/CMB2_JS.php:117
+msgid "Today"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/includes/CMB2_JS.php:118
+#: inc/vendors/cmb2/libraries/includes/CMB2_JS.php:128
+msgid "Done"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/includes/CMB2_JS.php:122
+msgid "Choose Time"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/includes/CMB2_JS.php:124
+msgid "Hour"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/includes/CMB2_JS.php:125
+msgid "Minute"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/includes/CMB2_JS.php:126
+msgid "Second"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/includes/CMB2_JS.php:127
+msgid "Now"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/includes/CMB2_JS.php:129
+msgctxt ""
+"Valid formatting string, as per http://trentrichardson.com/examples/"
+"timepicker/"
+msgid "hh:mm TT"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/includes/CMB2_JS.php:135
+msgid "Use this file"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/includes/CMB2_JS.php:136
+msgid "Use these files"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/includes/CMB2_JS.php:137
+#: inc/vendors/cmb2/libraries/includes/CMB2_Types.php:1004
+msgid "Remove Image"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/includes/CMB2_JS.php:138
+#: inc/vendors/cmb2/libraries/includes/CMB2_Types.php:357
+#: inc/vendors/cmb2/libraries/includes/CMB2_Types.php:1023
+msgid "Remove"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/includes/CMB2_JS.php:139
+#: inc/vendors/cmb2/libraries/includes/CMB2_Types.php:1018
+msgid "File:"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/includes/CMB2_JS.php:140
+#: inc/vendors/cmb2/libraries/includes/CMB2_Types.php:1021
+msgid "Download"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/includes/CMB2_JS.php:141
+msgid "Select / Deselect All"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/includes/CMB2_Types.php:298
+msgid "Add Row"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/includes/CMB2_Types.php:749
+#: inc/vendors/cmb2/libraries/includes/CMB2_Types.php:797
+msgid "No terms"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/includes/CMB2_Types.php:864
+msgid "Add or Upload Files"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/includes/CMB2_Types.php:926
+msgid "Add or Upload File"
+msgstr ""
+
+#: inc/vendors/cmb2/libraries/includes/helper-functions.php:250
+msgid "Save"
+msgstr ""
+
+#: templates/archive-simple_event.php:33 templates/single-simple_event.php:72
+msgid "Previous page"
+msgstr ""
+
+#: templates/archive-simple_event.php:34 templates/single-simple_event.php:73
+msgid "Next page"
+msgstr ""
+
+#: templates/archive-simple_event.php:35 templates/single-simple_event.php:74
+msgid "Page"
+msgstr ""
+
+#: templates/not-allowed.php:8
+msgid "You are not allowed to access this page."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Apus Simple Event"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://apusthemes.com/apus-simple-event/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "An plugin for theme Onesolution."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "ApusTheme"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://apusthemes.com"
+msgstr ""

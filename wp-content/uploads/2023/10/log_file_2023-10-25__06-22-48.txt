@@ -1,0 +1,116 @@
+
+---Downloaded files---
+The import files for: LearnPress were successfully downloaded!
+Initial max execution time = 6000
+Files info:
+Site URL = http://localhost/final-inpro
+Data file = C:\xampp\htdocs\final-inpro/wp-content/themes/educrat/inc/vendors/one-click-demo-import/data/learnpress/dummy-data.xml
+Widget file = C:\xampp\htdocs\final-inpro/wp-content/themes/educrat/inc/vendors/one-click-demo-import/data/learnpress/widgets.wie
+Customizer file = not defined!
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---ocdi/before_widgets_import---
+
+
+---Importing widgets---
+Sidebar Default : 
+
+Block - No Title - Imported
+Block - No Title - Imported
+Block - No Title - Imported
+
+Sidebar Home 9 : 
+
+Apus Show Elementor Template Widget - No Title - Imported
+
+Sidebar Home 10 : 
+
+Apus Show Elementor Template Widget - No Title - Imported
+
+Courses sidebar : 
+
+LearnPress Courses:: Filter Keywords - No Title - Imported
+LearnPress Courses:: Filter Categories - Categories - Imported
+LearnPress Courses:: Filter Ratings - Ratings - Imported
+LearnPress Courses:: Filter Instructors - Instructors - Imported
+LearnPress Courses:: Filter Prices - Prices - Imported
+LearnPress Courses:: Filter Levels - Levels - Imported
+
+Courses top sidebar : 
+
+LearnPress Courses:: Filter Categories - No Title - Imported
+LearnPress Courses:: Filter Ratings - No Title - Imported
+LearnPress Courses:: Filter Instructors - No Title - Imported
+LearnPress Courses:: Filter Prices - No Title - Imported
+LearnPress Courses:: Filter Levels - No Title - Imported
+
+Course single sidebar : 
+
+LearnPress Single Course:: Information - No Title - Imported
+
+Event sidebar : 
+
+Events Categories - Categories - Imported
+Events List - Recent Events - Imported
+Events Tags - Event Tags - Imported
+
+Event Single sidebar : 
+
+Event Single:: WooCoomerce Product - No Title - Imported
+
+Blog sidebar : 
+
+Apus Search Widget - No Title - Imported
+Block - No Title - Imported
+Apus Recent Posts Widget - Recent Posts - Imported
+Block - No Title - Imported
+
+Shop sidebar : 
+
+Apus Search Widget - No Title - Imported
+Block - No Title - Imported
+Block - No Title - Imported
+Block - No Title - Imported
+
+Header Mobile Bottom : 
+
+Block - No Title - Imported
+Apus Socials - No Title - Imported
+
+
+
+---ocdi/after_import---
+

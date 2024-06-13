@@ -1,0 +1,165 @@
+.home-page-default {
+  padding-top: $theme-padding;
+  padding-bottom: $theme-padding;
+  @media(min-width: 1200px){
+  	padding-top: 70px;
+  	padding-bottom: 70px;
+  }
+}
+.main-page {
+	.page-links{
+		clear: both;
+		overflow: hidden;
+		padding:$theme-padding 0;
+		margin:0;
+	}
+	#comments{
+		padding-top:30px;
+		clear: both;
+	}
+}
+.main-content{
+	padding-top:$theme-padding / 2;
+	padding-bottom:$theme-padding / 2;
+	@media(min-width: 1200px){
+		padding-top:$theme-padding;
+		padding-bottom:80px;
+	}
+	&.only_main{
+		.mobile-sidebar-btn{
+			display: none;
+		}
+	}
+}
+body.no-footer{
+	#apus-footer{
+		display: none !important;
+	}
+}
+//----------------------------------
+// layout page
+div.wpcf7-validation-errors{
+	margin: 0;
+	padding: 15px;
+}
+.contact-form-content{
+	padding: $theme-padding;
+	background: $contact-bg;
+	min-height: 260px;
+	.rounded{
+		margin-right: 10px;
+		color: $white;
+		@include size(40px,40px);
+		background: darken($body-bg, 20%);
+		.fa,.icon{
+			font-size: 16px;
+			margin: 13px;
+		}
+	}
+}
+// Page Not Found
+//----------------------------------
+.page-404{
+	position:relative;
+	background-color: #FEFBF4;
+   .not-found{
+   		padding:50px 0;
+   		@media(min-width: 1200px){
+   			padding:150px 0;
+   		}
+   	}
+   	.description{
+	   	font-size: 1rem;
+   	}
+   	.title-404{
+	   	font-size:25px;
+	   	margin: 0 0 10px;
+	   	@media(min-width: 1200px){
+	   		font-size: 35px;
+	   		margin: 0 0 20px;
+	   	}
+   	}
+   	.page-content{
+   		margin-top: 25px;
+   	}
+   	.top-image{
+   		margin-bottom: 20px;
+   		@media(min-width: 1200px){
+   			margin-bottom: 40px;
+   		}
+   	}
+   	.content-inner{
+   		@media(min-width: 1200px){
+   			padding-left: 90px;
+   		}
+   	}
+}
+.top_profile{
+	padding:30px 30px 25px;
+	border-bottom: 1px solid #dee6ed;
+	.user-logo{
+		margin: 0 0 25px;
+	}
+	.logo-inner{
+		@include size(150px,150px);
+		padding:5px;
+		@include border-radius(50%);
+		background:#fff;
+		overflow: hidden;
+		margin:auto;
+	}
+	.title{
+		font-size: 18px;
+		margin:0;
+	}
+	.categories{
+		a{
+			color: $body-color;
+			&:hover,&:focus{
+				color: $body-link;
+			}
+		}
+	}
+}
+.main-page-sidebar{
+	@media(min-width: 992px){
+		&.left-main{
+			padding-left: 300px;
+			.sidebar-wrapper{
+				position: fixed;
+				top: 0;
+				left: 0;
+				width: 300px;
+			}
+			.main-page{
+				width: 100%;
+				border-left: 1px solid $border-color;
+			}
+		}
+		&.main-right{
+			padding-right: 300px;
+			.sidebar-wrapper{
+				position: fixed;
+				top: 0;
+				right: 0;
+				width: 300px;
+			}
+			.main-page{
+				width: 100%;
+				border-right: 1px solid $border-color;
+			}
+		}
+		.sidebar-wrapper{
+			padding-top: $theme-padding;
+		}
+	}
+	.main-page{
+		padding: $theme-padding / 2;
+		@media(min-width: 1200px){
+			padding: $theme-padding;
+		}
+		&.st-dark{
+			border-color: #FFFFFF1C;
+		}
+	}
+}

@@ -1,0 +1,800 @@
+/*
+ Theme Name:   Educrat Child
+ Theme URI:    https://themeforest.net/item/educrat-online-course-education-wordpress-theme/39691021
+ Description:  Educrat Child Theme
+ Author:       ApusTheme
+ Author URI:   https://themeforest.net/user/apustheme/portfolio
+ Template:     educrat
+ Version:      1.0.0
+ Text Domain:  educrat-child
+*/
+
+
+
+body {
+  text-align: inherit !important;
+  font-family: 'Inter', sans-serif !important;
+}
+
+
+
+.main-sticky-header-wrapper {
+    height: 82.56px!important;
+}
+
+
+.quiz-buttons.is-first button.lp-button.review-quiz {
+    color: #fff!important;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #2c94ea; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #000; 
+}
+
+
+
+.lp-admin-notices.notice {display: none !important;}
+
+
+button.lp-button.review-quiz {
+    background-color: #3784d1!important;
+}
+.elementor-widget.elementor-widget-apus_element_user_info .top-wrapper-menu .btn-login.btn.btn-sm.btn-theme{display:none!important;}
+
+
+.thim-ekit-single-course__buttons .lp-button.btn-add-course-to-cart {
+    background-color: #fff !important;
+    color: #3784d1 !important;
+    border: 1px solid #3784d1 !important;
+}
+
+.thim-ekit-single-course__buttons .lp-button.btn-add-course-to-cart:hover {
+    background-color:#3784d1 !important;
+    color: #fff !important;
+    border: 1px solid #fff !important;
+}
+
+
+
+div#popup-header {
+    background-color: #3784d1!important;
+}
+.btn-theme:hover {
+    background: #ffffff;
+    border-color: #3784d1;
+    color: #3784d1;
+}
+
+.page-id-12 #main {
+  height: 60vh;
+}
+
+.page-id-28 div#apus-main-content {
+    min-height: 80vh;
+}
+
+
+
+
+
+
+
+
+h2.courseheading {
+    font-size: 18px;
+    color: #000;
+    font-family: 'Inter';
+    font-weight: 600;
+    margin: 0px;
+    padding: 10px 20px;
+    line-height: 28px;
+    min-height: 75px;
+}
+
+.courseMeta {
+    padding: 10px 20px;
+}
+
+
+.courseMeta span {
+    padding: 5px;
+    color: #000;
+    font-size: 14px;
+}
+
+.coursedetail {
+    display: inline-flex;
+    color: #000;
+    padding: 10px 20px;
+    width: 100%;margin-bottom: 20px;
+}
+
+.courseFeeDetail {
+    float: right;
+    margin-left: 20px;    width: 50%;
+}
+.courseMeta span i {
+    margin-right: 5px;
+    color: #79baff;
+}
+
+.courseTeacher p span img {
+    margin: 0px;
+    border-radius: 20px;
+}
+
+.courseBox {}
+.course-inner-box{
+    border-width: 0 1px 1px;
+    border-style: solid;
+    border-color: #EDEDED;
+    border-radius: 0 0 8px 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.courseBox .courseBanner{ border-radius: 8px 8px 0 0!important;}
+
+.courseTeacher p {
+    font-weight: 500;margin-bottom: 0px;
+}
+.courseTeacher p span { padding-right: 10px; }
+p.courseFee {
+    float: right;    margin-bottom: 0px;
+}
+p.courseFee span{
+    font-size: 20px;
+    color: #3784d1;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------- Home page CSS ----------- */
+
+.no-content {display: none !important;}
+span.text-blue {color: #0643d2;}
+span.text-blue1 {color: #7148FC;}
+span.text-black {color: #000;}
+
+.instructor-cover {background-color: #0547db17; border-radius: 25px;}
+.instructor-grid-inside .cover-inner {border-radius: 25px!important;}
+.item-inner-features {padding: 40px 30px !important;}
+.instructor-grid-inside .cover-inner:before{background: #001749!important;}
+
+.course-layout-item .course-layout-content {padding: 12px!important;}
+
+.course-grid.lp_course.type-lp_course.status-publish.has-post-thumbnail.hentry.course {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    padding: 0px;margin-top: 35px;
+}
+.course-layout-item{margin: 0 0 0rem!important;}
+.course-item-price span.price { /* background-color: #001749;color: #fff;padding: 10px;border-radius: 5px; */ font-weight:bold;}
+
+.thim-ekits-course__item.lp_course.type-lp_course.status-publish.has-post-thumbnail.hentry.course {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    padding: 0px;
+}
+
+a.thim-ekits-course__read-more {
+    background-color: #000;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.thim-ekits-avatar-position-top .thim-ekits-course__instructor {
+    flex-direction: row !important;
+}
+
+.course-info-top {
+    display: none;
+}
+
+.course-grid .course-cover-thumb {
+    background-color: #203449;
+    text-align: center;
+}
+/* -------- Instructors Page ----------- */
+
+#speaker-section-home h4 {
+    margin-top: 0px!important;
+    margin-bottom: 20px!important;
+}
+#speaker-section-home h4 a{color: #001749!important; }
+#speaker-section-home p a{color: #fff!important;padding: 10px 20px;background-color: #001749;border-radius: 5px;border: 1px solid #001749; font-weight: 400; letter-spacing: 1px; font-size: 14px;}
+#speaker-section-home p:hover a{color: #001749!important;padding: 10px 20px;background-color: #fff;}
+#speaker-section-home img.avatar.photo {background-color: #0547db17;border-radius: 25px;}
+
+
+#learn-press-profile #profile-content .lp-archive-courses ul.learn-press-courses .course {margin: 5px!important;}
+.learnpress-profile .learn-press-courses[data-size="3"] .course{width: 32.3333%;}
+span.origin-price { font-size: 12px!important;}
+
+.our-team-experts .instructor-bottom {
+    display: none;
+}
+
+/* -------- COURSE PAGE CSS  ----------- */
+.learn-section{background-position: top center; background-repeat: no-repeat; background-size: cover; height: auto; margin-bottom: 0px; padding: 80px 0;}
+.learn-section .learn-info{border-radius:10px; padding: 30px; background: rgb(0 23 73);background: linear-gradient(180deg, rgb(88 111 255 / 61%) 1%, rgb(0 23 73) 100%);}
+.learn-section .learn-info p{text-align: left; color: #fff; font-size: 16px;}
+.learn-section .learn-info h2{text-align: left; color: #fff; font-size: 30px; line-height: 45px}
+.learn-section .learn-info .p-title{text-align: left; color: #fff; font-size: 14px;}
+.learn-section p.learn-cta a { background-color: #ffffff; padding: 10px 20px; border-radius: 5px;color: #0d0d0d;}
+.review-stars-rated{width:auto !important;}
+
+.course-single-tab > li {margin-left: 0px!important;text-align: center; background-color: #001749;}
+.course-single-tab > li > label {color:#fff!important; padding:10px!important;width:100%;}
+.course-single-tab { margin-bottom: 0px!important;}
+.course-single-tab  > li.active {background-color: #ffffff;}
+.course-single-tab  > li.active label {color:#0840c5!important;    border: 1.5px solid #0840c5 !important;}
+.course-tab-panels {padding: 20px;background-color: #0840c512;}
+.course-tab-panels ul{margin-left: 20px;}
+.course-single-tab > li > label:before{height:0px !important;}
+.sticky-header .openid-connect-login-button { border: 2px solid #000; border-radius: 5px;padding: 5px 10px;margin: 0px !important;}
+.sticky-header .openid-connect-login-button:hover {border: 2px solid #3784d1;}
+.main-sticky-header .openid-connect-login-button:hover {border: 2px solid #3784d1;}
+.main-sticky-header .openid-connect-login-button { border: 2px solid #000; border-radius: 5px;padding: 5px 10px;margin: 0px !important;}
+.woocommerce-info.other-login-regi {display: flex!important;}
+.other-login-regi .openid-connect-login-button {margin: 0px !important;text-align: left !important;}
+.other-login-regi .openid-connect-login-button a.button {float:left!important;line-height: 0;background-color: transparent !important;color: #1681c4;border: none !important;padding: 14px 5px !important;}
+/*
+.item-inner-features.style1 {width: 100%;height: 300px;display: flex;flex-direction: column;align-items: center;justify-content: center;text-align: center;gap: 20px;background-color: #fffffe;border-radius: 15px;position: relative;overflow: hidden;}
+.item-inner-features.style1::before {content: "";width: 100%;height: 100px;position: absolute;top: 0;border-top-left-radius: 15px;border-top-right-radius: 15px;border-bottom: 3px solid #fefefe;background: linear-gradient(40deg, rgb(194 219 255) 0%, rgb(131 169 255) 50%, rgb(0 80 255) 100%);transition: all 0.5s ease;}
+.item-inner-features.style1 * {z-index: 1;}
+.features-box-image {width: 90px;height: 90px;background-color: #1468BF;border-radius: 50%;border: 4px solid #fefefe;margin-top: 30px;transition: all 0.5s ease;}
+.features-box-content {display: flex;flex-direction: column;align-items: center;gap: 15px;transition: all 0.5s ease;}
+.item-inner-features .features-box-image {font-size: 50px!important;color: #fff !important;}
+.features-box-content p {color: rgba(0, 0, 0, 0.5);}
+.button {text-decoration: none;background-color: #1468BF;color: white;padding: 5px 20px;border-radius: 5px;border: 1px solid white;transition: all 0.5s ease;}
+.item-inner-features.style1:hover::before {width: 100%;height: 300px;border-bottom: none;border-bottom-left-radius: 15px;border-bottom-right-radius: 15px;transform: scale(0.95); }
+.item-inner-features.style1 .features-box-content {transform: translate(0%,-25%);}
+.item-inner-features.style1:hover .image {transform: scale(2) translate(-60%,-40%);}
+.button:hover {background-color: #fff;}
+.experts-tech .item-inner-features h3.title {font-size: 18px;line-height: 28px;}
+
+*/
+/* -------- Continue Shopping button css  ----------- */
+.custCP{
+    color: #fff;
+    font-family: "Inter", Sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+}
+.custCP s{
+    color: #fff;    font-size: 16px;
+    font-weight: 400;
+}
+.custCP span{
+    color: #fff;
+}
+
+.custCP small {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.elementor-element.elementor-element-53f6d50.elementor-widget-laptop__width-initial.elementor-widget__width-inherit.elementor-widget.elementor-widget-thim-ekits-contact-form-7 {
+    width: 100%;
+}
+/* --------  ----------- 
+.button:hover {
+    background-color:blue!important;
+    transform: scale(1.1);
+}
+--------  ----------- */
+
+.learn-press-tabs .learn-press-tabs__tab > label{ padding :0px !important;
+    color: #fff !important;
+    background: var(--educrat-theme-color) !important;
+    border-color: var(--educrat-theme-color) !important;
+}
+.lp-user-profile #profile-content-settings .learn-press-tabs__nav .learn-press-tabs__tab{width:100px!important;}
+.learn-press-tabs .learn-press-tabs__tab > label a {padding: 15px 20px; line-height: 40px;}
+
+.learn-press-form-register > form > p:first-of-type {display: none;}
+.lp-user-profile #profile-content-settings .learn-press-tabs__nav { border:none!important;}
+
+.section-item-link{ display:inline-block;}
+
+.content-item-description.lesson-description iframe{width:100%!important;}
+
+
+/* -------- Hide Quiz Section ----------- */
+/* li.quizzes {
+    display:none !important;
+}
+
+ label[for="privacy-quizzes"]
+{
+    display:none !important; 
+}
+
+input[name="privacy[quizzes]"]
+{
+    display:none !important;
+} */
+
+/*li.form-field:nth-child(2) {
+    display: none !important;
+}*/
+
+
+/* -------- Hide passed,failed fields from learnpress ----------- */
+.statistic-box:nth-child(4) {
+    display: none !important;
+}
+.statistic-box:nth-child(5) {
+    display: none !important;
+}
+
+.learn-press-filters > li:nth-child(5) {
+    display: none!important;
+}
+.learn-press-filters > li:nth-child(4) {
+    display: none!important;
+}
+
+.wpcf7-form textarea.form-control {
+    height: 170px !important;
+}
+
+.top-wrapper-menu .infor-account .avatar-wrapper{border-radius: 50px!important; background: #e5e5e5!important;}
+
+.megamenu > li > a:hover, .megamenu > li > a:active, .megamenu > li > a:focus{background: none!important;}
+
+
+.megamenu > li:hover > a, .megamenu > li.active > a{background: none!important;     color: #1681c4!important;}
+
+
+/* -------- Courses grid box section css start  ----------- */
+
+
+
+.course-layout-item .course-cover {
+    overflow: hidden;
+    border-radius: 8px 8px 0px 0px!important;
+}
+
+.course-layout-item .course-layout-content {
+    padding: 15px 25px!important;
+}
+
+.course-layout-item .course-info-top {
+    margin: 0;
+}
+
+.course-layout-item .course-title {
+    min-height: 40px!important;
+    font-weight: 500!important;
+    font-size: 16px!important;
+    color: #151618!important;;
+}
+
+.course-layout-item .course-title a{color:#151618!important;}
+
+.course-layout-item .course-meta-middle {
+    font-size: 13px!important;
+    color: #212224!important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.course-layout-item .course-meta-bottom {
+    padding: 20px 0 0!important;
+    margin-top: 20px!important;
+    border-top: 1px solid #EDEDED;
+}
+
+.course-layout-item .course-price {
+    font-size: 16px;
+    color: #0142d6;
+    font-weight: 500;
+}
+
+.course-layout-item .course-cover .sale-label {   
+    font-size: 10px!important;
+    font-weight: 400!important;
+    text-transform: uppercase;
+    border-radius: 50px;
+    padding: 6px 15px!important;    
+    top: 15px!important;
+    right: 15px!important;
+    left: auto!important;
+}
+
+/* -------- Courses grid box section css end  ----------- */
+
+.instructor-grid-inside .instructor-name a{color:#151618!important;}
+.instructor-bottom{font-size: 13px!important;
+    color: #212224!important; display: flex;
+    justify-content: space-between;}
+
+
+.list-check1 {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-weight: 500;
+    color: var(--educrat-heading-color);
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+.list-check1 li {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 0.625rem;
+}
+
+@media (min-width: 1200px)
+.list-check1 li {
+    margin-bottom: 20px
+
+}
+
+.list-check1 i {
+    color: #fff;
+    background: #7541f6;
+    font-size: 8px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+}
+
+.tabs-course > li > a.active, .tabs-course > li > a:focus, .tabs-course > li > a:hover {
+    background: var(--educrat-theme-color-007);
+    color: #7148FC!important;
+}
+
+.add-fix-top{ background: #001749!important;}
+
+
+.course-curriculum .section-content .course-item-meta .course-item-status::before{    font-size: 16px!important;    margin-left: -70px;}
+.course-item-lp_lesson .course-curriculum .section-content .course-item-meta .course-item-status::before{    margin-left: -35px;}
+
+.lp_course-template-default .content-item-wrap{width:100%!important;}
+div#tab-instructor-id {
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    margin-top: 20px;
+}
+.wrap-btn-add-course-to-cart {
+    width: 100%!important;
+}
+button.lp-button.lp-btn-wishlist.learn-press-course-wishlist-button-1079.course-wishlist {
+    margin-top: 5px;
+}
+
+li.students-enrolled.user-login.in-progress .user-info {
+    width: 40%;
+}
+li.students-enrolled.in-progress .lp-course-status {
+    width: 60%;
+}
+.card-desc
+{height: 100px !important;}
+
+button.lp-button.lp-btn-wishlist.course-wishlist {
+    margin-top: 15px !important;
+}
+li.wishlist.active {
+    margin-bottom: 10px !important;
+}
+
+aside.widget.widget_apus_course_filter_keywords {
+    display: none !important;
+}
+
+
+
+
+/* -------- Courses Scroll START ----------- */
+
+.main-scroll .container {padding:0!important}
+
+
+  .scroll-learn-info{display: block; padding-bottom: 50px; border-radius: 15px; min-height: 200px;}
+  .scroll-learn-info h3{color: #000; font-size: 32px; font-weight: 700; text-align: center;}
+  .scroll-learn-info p{color: #5b6e70; font-size: 17px; font-weight: 400; text-align: center;}
+  .box-scroll-1{background: #BBEDF2;}
+  .box-scroll-2{background: #FAEFC9;}
+  .box-scroll-3{background: #C3E2BF;}
+  .box-scroll-4{background: #FDCFB3;}
+  .box-scroll-5{background: #C4B9DC;}
+  .box-scroll-6{background: #80AEFF;}
+  .scroll-learn-info .info-text{padding: 40px;}
+  .scroll-img{margin: 0 0 0 80px;}
+.scroll-img img{width: 100%; border-radius: 15px 0 0 15px;}
+  .scroll-info.scroll-section {
+    grid-area: article;
+    position: -webkit-sticky;
+    position: sticky;
+    text-align: left;
+    top:150px;
+    margin-bottom: 48px;
+    
+}
+
+.scroll-info .scroll-btn{border: solid 1px #1681C4;  border-radius: 8px; padding: 18px 35px; font-size: 15px; font-weight: 500; text-align: center; color: #1681C4; display: inline-block; }
+.scroll-info .scroll-btn:hover{border: solid 1px #1681C4; background: #1681C4; color: #fff; }
+
+.scroll-info h3{color: #000; font-size: 34px; font-weight: 700; text-align: left; font-family: "Inter", sans-serif; line-height: 42px;}
+.scroll-info p{color: #000; font-size: 15px; font-weight: 400; text-align: left;}
+
+  .scroll-card.scroll-section {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4,558px);
+    gap: 80px;
+    padding-bottom: 152px;
+    margin-bottom: 0;
+    justify-self: end;
+}
+
+.scroll-card.scroll-section {
+  list-style: none;
+  grid-area: img;
+  display: grid;
+  grid-template-rows: repeat(5,1fr);
+  margin-bottom: var(--spacing_3x);
+}
+
+.s-item.scroll-section {
+  top: 250px;
+  padding-top: calc(var(--index) * 38px);
+}
+
+.s-item.scroll-section {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 150px;
+  padding-top: calc(var(--index) * 24px);
+}
+
+.main-scroll.scroll-section {
+  grid-template-columns: 0.7fr 1fr;
+  grid-template-rows: auto auto;
+  grid-template-areas: "article img";
+  grid-column-gap: 92px;
+  padding-top: 200px;
+  max-width: 1280px;
+  margin-inline: auto;
+  padding-inline: 0px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.main-scroll.scroll-section {
+  max-width: 484px;
+  /* padding: 57px 16px; */
+  padding-bottom: 0;
+  padding-top: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3,auto);
+  grid-template-areas:
+      "article"
+      "img"
+      "btn";
+}
+
+.s-card-1.scroll-section {
+  --index: 1;
+}
+.s-card-2.scroll-section {
+  --index: 2;
+}
+.s-card-3.scroll-section {
+  --index: 3;
+}
+.s-card-4.scroll-section {
+  --index: 4;
+}
+.s-card-5.scroll-section {
+  --index: 5;
+}
+.s-card-6.scroll-section {
+  --index: 6;
+}
+
+.scroll-content.scroll-section {
+  border-radius: 16px;
+  overflow: hidden;
+  display: grid;
+  grid-template-areas: "img img";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  display: block;
+}
+.course-layout-content {
+    min-height: 230px !important;
+}
+/* -------- Courses Scroll END ----------- */
+
+li.course-item.course-item {
+    padding: 10px 20px !important;
+}
+.testimonials-item .description {
+    overflow-y: scroll !important;
+    height: 155px!important;
+    overflow: auto!important;
+}
+
+.header-mobile {background: #adceeb !important;}
+.btn-theme:active, .btn-theme:hover {
+    background: #ffffff!important;
+    border-color: #0080c1!important;
+    color: #0080c1!important;
+}
+.elementor-1617 .elementor-element.elementor-element-ff36809:not(.elementor-motion-effects-element-type-background) {
+    background-color: #0080c1!important;
+}
+.woocommerce-info.login-message-profile {line-height: 28px;}
+.login-message-profile .openid-connect-login-button {display: inline-flex!important; margin-top: 0px !important;margin-bottom: 0px!important;}
+.login-message-profile .openid-connect-login-button a{color: #1681c4;}
+.dashboard-statistic__row {
+    display: none;
+}
+ul.learn-press-filters {
+    display: none;
+}
+.learn-press-profile-course__statistic {
+    display: none!important;
+}
+.learnpress-page .lp-button, .learnpress-page #lp-button {
+    border: 1px solid white!important;
+    color: #1681c4!important;
+    background: #ffffff !important;
+   }
+.learnpress-page .lp-button:hover, .learnpress-page #lp-button:hover {
+    border-color: #ffffff!important;
+    color: #ffffff!important;
+    background: var(--lp-primary-color)!important;
+}
+li.lp_orders_woocommerce {
+    display: none!important;
+}
+
+
+
+.shopping_cart_content .cart_list .cart-main-content .remove {
+  position: absolute;
+  right: 0px;
+  top: 15px;
+  z-index: 1;
+  font-size: 10px;
+  background: black !important;
+  color: var(--educrat-theme-color) !important;
+  padding: 5px;
+  border-radius: 20px;
+  line-height: 10px;
+}
+.testimonials-item .inner-bottom {
+    padding-top: 20px;
+    margin-top: 0px!important;
+	margin-bottom: 20px!important;
+    padding-bottom: 20px;
+    border-top: 0px solid #EDEDED!important;
+	border-bottom: 1px solid #EDEDED!important;
+}
+
+
+
+
+
+.curriculum-sections .section-content li.current {
+    background: #3784d154 !important
+}
+
+li.course-item.course-item.course-item-lp_lesson.course-item-8487.current{
+    background: #3784d154 !important
+}
+
+
+
+
+
+
+
+
+.check__pshah{ display: none!important; }
+.check_subscriber_pshah{ display: none!important; }
+.check__abhijit{ display: none!important; }
+.check_subscriber_Abhijit{ display: none!important; }
+.check__RRanjan{ display: none!important; }
+.check_subscriber_RRanjan{ display: none!important; }
+.check_ {display: none!important;}
+.check_subscriber_lp-profile{display: block;}
+
+
+
+
+div#custom_checkout_checkbox_field {
+    padding: 10px 20px;
+    border: 1px solid #c2efc9;
+    border-radius: 20px;
+    background-color: #e6e6e6;
+}
+
+.verify-message span {
+    font-size: 20px;
+}
+.verify-message {
+    color: #1d9a37;
+    font-size: 20px;margin-bottom: 10px;
+}
+.request-verify-message span{
+    font-size: 20px; display:none;
+}
+
+.request-verify-message{
+    color: #d22b27;font-size: 20px;
+}
+
+p.buy-already {color: #fb170a;font-size: 20px;position: realtive; margin-bottom: 20px;
+}
+
+div#order_review {
+    margin-top: 30px;
+}
+#order_review table tr.fee {
+    background-color: #fff7e0;
+}
+
+.message-onpay {
+  padding: 10px 20px;
+  border: 1px solid #efc2c2;
+  border-radius: 20px;
+  background-color: #f7f2f2;
+  color: #ff6565;
+}
+.message-onpay ul li{list-style: none !important;}
+
+.message-onpay ul li a{color: #659aff;}

@@ -1,0 +1,3 @@
+[2024-02-02 11:55:37] DEBUG [C:\xampp\htdocs\defguru\wp-content\plugins\site-reviews\plugin\Integrations\Cache\Controller.php:108] cache::flushing
+[2024-02-02 12:04:10] DEBUG [C:\xampp\htdocs\defguru\wp-content\plugins\site-reviews\plugin\Integrations\Cache\Controller.php:108] cache::flushing
+[2024-02-02 13:29:42] WARNING [Commands\DeactivatePlugin:35] Deactivation reason missing.
